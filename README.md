@@ -15,3 +15,8 @@ Since https://chromium-review.googlesource.com/c/chromium/src/+/3176190, Chromiu
 ## Compile
 
 (PLACEHOLDER)
+
+## TODO
+
+- Overwrite Windows 11's UBR version number
+- A better loader implement

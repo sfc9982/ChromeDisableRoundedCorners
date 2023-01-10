@@ -38,7 +38,9 @@ $(OBJD)\withdll_silent.obj : withdll_silent.cpp
 
 $(BIND)\withdll_silent.exe : $(OBJD)\withdll_silent.obj $(DEPS)
     cl $(CFLAGS) /Fe$@ /Fd$(@R).pdb $(OBJD)\withdll_silent.obj \
-        /link $(LINKFLAGS) $(LIBS) /subsystem:windows /entry:mainCRTStartup
+        /link $(LINKFLAGS) $(LIBS)
+		# Run silently
+		/subsystem:windows /entry:mainCRTStartup
 
 $(OBJD)\withdll_silent.bsc : $(OBJD)\withdll_silent.obj
     bscmake /v /n /o $@ $(OBJD)\withdll_silent.sbr

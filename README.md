@@ -13,7 +13,9 @@ Since https://chromium-review.googlesource.com/c/chromium/src/+/3176190, Chromiu
 
 ## Usage
 
-(PLACEHOLDER)
+Download Release, put Chrome directory as 1st parameter and start.
+
+下载 Release, 参数为 Chrome 位置，附加参数启动即可
 
 ## Compile
 

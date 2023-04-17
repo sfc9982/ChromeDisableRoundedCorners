@@ -23,5 +23,6 @@ Download Release, put Chrome directory as 1st parameter and start.
 
 ## TODO
 
-- Overwrite Windows 11's UBR version number
-- A better loader implement
+- [ ] Overwrite Windows 11's UBR version number
+- [ ] A better loader implement
+- [ ] Make this as a Windhawk plugin
